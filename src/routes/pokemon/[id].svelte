@@ -13,6 +13,10 @@
 	const type = pokemon.types[0].type.name;
 </script>
 
+<svelte:head>
+	<title>Pokedex - {pokemon.name}</title>
+</svelte:head>
+
 <div class="flex flex-col items-center">
 	<h1 class="text-4xl text-center my-8 uppercase">{pokemon.name}</h1>
 	<p>
